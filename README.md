@@ -8,3 +8,7 @@
 ```
 docker-compose up
 ```
+## Credenciales 
+
+- username: web
+- password: web
