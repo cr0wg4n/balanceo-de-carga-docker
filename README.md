@@ -1,10 +1,10 @@
-#Tomcat + Nginx
+# Tomcat + Nginx
 
-##Requisitos
+## Requisitos
 - docker
 - docker-compose
 
-##Uso
+## Uso
 ```
 docker-compose up
 ```
