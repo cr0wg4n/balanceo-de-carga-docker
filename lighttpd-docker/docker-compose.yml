@@ -18,7 +18,7 @@ lighttpd:
     tty: 
         true
     volumes:
-        - ./htdocs/index.html:/var/www/localhost/htdocs/index.html:ro
+        - ./htdocs/light1/:/var/www/localhost/htdocs/:ro
 
 
 lighttpd1:
@@ -30,7 +30,7 @@ lighttpd1:
     tty: 
         true
     volumes:
-        - ./htdocs/index.html:/var/www/localhost/htdocs/index.html:ro
+        - ./htdocs/light2/:/var/www/localhost/htdocs/:ro
 
 lighttpd2:
     container_name: lighttpd2
@@ -41,7 +41,7 @@ lighttpd2:
     tty: 
         true
     volumes:
-        - ./htdocs/index.html:/var/www/localhost/htdocs/index.html:ro
+        - ./htdocs/light3/:/var/www/localhost/htdocs/:ro
 
 nginx:
   image: nginx:alpine
